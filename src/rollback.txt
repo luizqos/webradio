@@ -1,0 +1,27 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import Button from "@material-ui/core/Button";
+
+function App() {
+  return (
+    <Button variant="contained" color="secondary">
+      Hello World
+    </Button>
+    
+    <video
+    id="my-video"
+    class="video-js"
+    controls
+    preload="auto"
+    width="640"
+    height="264"
+    poster="//us0-cdn.onlineradiobox.com/img/l/2/6222.v16.png"
+    data-setup="{}"
+  >
+        <source src="https://playerservices.streamtheworld.com/api/livestream-redirect/977_HITSAAC_SC" type="video/mp4" />
+  </video>
+
+  );
+}
+
+ReactDOM.render(<App />, document.querySelector("#app"));
