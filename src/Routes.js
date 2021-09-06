@@ -1,8 +1,8 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Home from "./pages/home";
-import Antena1 from "./pages/station/antena1";
-import Dot977 from "./pages/station/977";
+//import Antena1 from "./pages/station/antena1";
+//import Dot977 from "./pages/station/977";
 import Radio from "./pages/station/radio";
 
 export default function Rota() {

@@ -1,11 +1,8 @@
 import React from 'react';
-import Logo from "./img/logo/logo.png";
 import Data from '../../../utils/data';
 import "../../../css/style.css";
 import "../../../css/global.css";
 import player from "../../../utils/player.js"
-
-// import { Container } from './styles';
 
 function Radio(props) {
     const radioName = Data.map(value => value.radioName);
@@ -28,7 +25,7 @@ function Radio(props) {
                 <i className="material-icons">equalizer</i>WebRadio
               </h4>
               <div className="card">
-                <img src={Logo} className="App-logo" alt="logo" />
+                <img src={dados[0].logo} className="App-logo" alt="logo" />
                 <div className="card-image">
                   <a
                     onclick="togglePlayPause()" 
@@ -40,7 +37,7 @@ function Radio(props) {
                   </a>
                 </div>
                 <div className="card-content">
-                  <h5 className="Title">Ouvindo</h5>
+                  <h5 className="Title">Ouvindo</h5> 
                   <p className="station">{dados[0].station}</p>
                   <div className="row valign-wrapper" id="player-controls">
                     <div>
