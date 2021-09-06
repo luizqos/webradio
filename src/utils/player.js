@@ -12,8 +12,11 @@ export default {
   currentPlaying: 0,
   isPlaying: false,
 
-  start() {
+  start(position) {
+    this.currentPlaying = position;
+
     elements.get.call(this);
+
     this.update();
           sleep(1000).then(() => {
             this.audio.play(); 

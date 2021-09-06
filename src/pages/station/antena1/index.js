@@ -11,9 +11,9 @@ import player from "../../../utils/player.js"
 //console.log('Qual radio:',Radio[0]);
 
 
-window.addEventListener("load", () => {
-player.start();
-});
+// window.addEventListener("load", () => {
+// player.start();
+// });
 
 const Station = () => {
   return (

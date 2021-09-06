@@ -11,9 +11,9 @@ console.log('Qual radio:',radio.station);
 //console.log('Qual radio:',Radio[0]);
 
 
-window.addEventListener("load", () => {
-  player.start();
-});
+// window.addEventListener("load", () => {
+//   player.start();
+// });
 
 const Station = () => {
   return (
