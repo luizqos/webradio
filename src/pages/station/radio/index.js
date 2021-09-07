@@ -1,7 +1,9 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import Data from '../../../utils/data';
-import "../../../css/style.css";
+import "../../../css/materialize.css"
 import "../../../css/global.css";
+import "../../../css/style.css";
 import player from "../../../utils/player.js"
 
 function Radio(props) {
@@ -16,9 +18,11 @@ function Radio(props) {
 
     return (
         <div className="App">
+          <Link to="/">
           <a className="btn-floating btn-large black">
             <i className="large material-icons">apps</i>
           </a>
+          </Link>
           <header className="App-header">
             <div id="player-controls">
               <h4>
@@ -27,14 +31,14 @@ function Radio(props) {
               <div className="card">
                 <img src={dados[0].logo} className="App-logo" alt="logo" />
                 <div className="card-image">
-                  <a
+                  <button
                     onclick="togglePlayPause()" 
                     className="btn-floating btn-large halfway-fab"
                   >
                     <i className="material-icons" id="play-pause">
                       play_arrow
                     </i>
-                  </a>
+                  </button>
                 </div>
                 <div className="card-content">
                   <h5 className="Title">Ouvindo</h5> 

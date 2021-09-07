@@ -18,13 +18,10 @@ export default {
     elements.get.call(this);
 
     this.update();
-          sleep(1000).then(() => {
-            this.audio.play(); 
-            this.playPause.innerText = "pause";  
-        });
 
     this.volumeControl.value = 10;
-    this.audio.volume = 10 / 100;
+    this.audio.volume = 10 / 100
+
   },
   play() {
     this.isPlaying = true;
@@ -83,6 +80,9 @@ export default {
 
     this.audio.onloadeddata = () => {
       elements.actions.call(this);
+      this.audio.play();
+      this.playPause.innerText = "pause";
+      this.isPlaying = true;
     };
   },
 };
