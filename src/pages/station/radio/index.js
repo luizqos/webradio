@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import Data from '../../../utils/data';
-import "../../../css/materialize.css"
+
 import "../../../css/global.css";
+import "../../../css/materialize.css"
 import "../../../css/style.css";
+
 import player from "../../../utils/player.js"
 
 function Radio(props) {
@@ -19,9 +21,9 @@ function Radio(props) {
     return (
         <div className="App">
           <Link to="/">
-          <a className="btn-floating btn-large black">
+          <button className="btn-floating btn-large black">
             <i className="large material-icons">apps</i>
-          </a>
+          </button>
           </Link>
           <header className="App-header">
             <div id="player-controls">

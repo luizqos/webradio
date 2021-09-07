@@ -1,5 +1,8 @@
 import React from "react";
 import "../../css/boxes.css";
+import "../../css/custom.css";
+
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -13,14 +16,54 @@ function Home() {
             <div className="col-auto">
               <div className="boxes">
                 <div className="box">
-                  <div className="box-content">
-                    <a className="box-titulo">antena</a>
-                  </div>
+                  <a href="/radio/jpbh" className="box-titulo">
+                    <img src="./logo/jpbh.png" />
+                  </a>
                 </div>
                 <div className="box">
-                  <div className="box-content">
-                    <a className="box-titulo">988</a>
-                  </div>
+                  <a href="/radio/jpsp" className="box-titulo">
+                    <img src="./logo/jpsp.png" />
+                  </a>
+                </div>
+                <div className="box">
+                  <a href="/radio/98live" className="box-titulo">
+                    <img src="./logo/98live.png" />
+                  </a>
+                </div>
+                <div className="box">
+                  <a href="/radio/977" className="box-titulo">
+                    <img src="./logo/977.png" />
+                  </a>
+                </div>
+                <div className="box">
+                  <a href="/radio/antena1" className="box-titulo">
+                    <img src="./logo/antena1.png" />
+                  </a>
+                </div>
+                <div className="box">
+                  <a href="/radio/alvorada" className="box-titulo">
+                    <img src="./logo/alvorada.png" />
+                  </a>
+                </div>
+                <div className="box">
+                  <a href="/radio/bhfm" className="box-titulo">
+                    <img src="./logo/bhfm.png" />
+                  </a>
+                </div>
+                <div className="box">
+                  <a href="/radio/clube" className="box-titulo">
+                    <img src="./logo/clube.png" />
+                  </a>
+                </div>
+                <div className="box">
+                  <a href="/radio/mix" className="box-titulo">
+                    <img src="./logo/mix.png" />
+                  </a>
+                </div>
+                <div className="box">
+                  <a href="/radio/89" className="box-titulo">
+                    <img src="./logo/89.png" />
+                  </a>
                 </div>
               </div>
             </div>
