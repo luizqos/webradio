@@ -74,6 +74,6 @@ export default [
     station: "CLUBE FM",
     radioName: 'clube',
     logo: '/logo/clube.png',
-    file:"http://9595.brasilstream.com.br/stream",
+    file:"https://ice.fabricahost.com.br/clubefmbh",
   },
 ];
