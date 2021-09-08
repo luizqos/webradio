@@ -46,8 +46,8 @@ function Home() {
                   </a>
                 </div>
                 <div className="box">
-                  <a href="/radio/bhfm" className="box-titulo">
-                    <img src="./logo/bhfm.png" />
+                  <a href="/radio/cdl" className="box-titulo">
+                    <img src="./logo/cdl.png" />
                   </a>
                 </div>
                 <div className="box">
