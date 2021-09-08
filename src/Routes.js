@@ -10,6 +10,7 @@ export default function Rota() {
         <Home />
       </Route>
       <Route exact path="/radio/:radio" component={Radio} />
+      <Route path="*" render={() => "404 Not found!"} />
     </Switch>
   );
 }

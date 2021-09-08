@@ -2,8 +2,6 @@ import React from "react";
 import "../../css/boxes.css";
 import "../../css/custom.css";
 
-import { Link } from "react-router-dom";
-
 function Home() {
   return (
     <div className="App">
