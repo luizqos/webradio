@@ -1,6 +1,7 @@
 export default [
   {
     title: "Ouvindo",
+    page: "/radio/antena1",
     station: "Antena1",
     radioName: 'antena1',
     logo: '/logo/antena1.png',
@@ -8,6 +9,7 @@ export default [
   },
   {
     title: "Ouvindo",
+    page: "/radio/977",
     station: ".977 Today's Hits",
     radioName: '977',
     logo: '/logo/977.png',
@@ -15,6 +17,7 @@ export default [
   },
   {
     title: "Ouvindo",
+    page: "/radio/alvorada",
     station: "Alvorada",
     radioName: 'alvorada',
     logo: '/logo/alvorada.png',
@@ -23,6 +26,7 @@ export default [
   {
     title: "Ouvindo",
     station: "Jovem Pan BH",
+    page: "/radio/jpbh",
     radioName: 'jpbh',
     logo: '/logo/jpbh.png',
     file:"http://8a3c.live.upx.net.br:8036/stream.mp3",
@@ -30,12 +34,14 @@ export default [
   {
     title: "Ouvindo",
     station: "Jovem Pan SP",
+    page: "/radio/jpsp",
     radioName: 'jpsp',
     logo: '/logo/jpsp.png',
     file:"https://playerservices.streamtheworld.com/api/livestream-redirect/JP_SP_FMAAC.aac",
   },
   {
     title: "Ouvindo",
+    page: "/radio/98live",
     station: "98 Live",
     radioName: '98live',
     logo: '/logo/98live.png',
@@ -43,6 +49,7 @@ export default [
   },
   {
     title: "Ouvindo",
+    page: "/radio/mix",
     station: "MIX",
     radioName: 'mix',
     logo: '/logo/mix.png',
@@ -50,13 +57,7 @@ export default [
   },
   {
     title: "Ouvindo",
-    station: "BH FM",
-    radioName: 'bhfm',
-    logo: '/logo/bhfm.png',
-    file:"https://medias.sgr.globo.com/hls/aBHFM/aBHFM.m3u8",
-  },
-  {
-    title: "Ouvindo",
+    page: "/radio/89",
     station: "89 a Radio Rock",
     radioName: '89',
     logo: '/logo/89.png',
@@ -64,6 +65,8 @@ export default [
   },
   {
     title: "Ouvindo",
+    page: "/radio/cdl",
+    page: "/radio/cdl",
     station: "CDL FM",
     radioName: 'cdl',
     logo: '/logo/cdl.png',
@@ -71,9 +74,18 @@ export default [
   },
   {
     title: "Ouvindo",
+    page: "/radio/clube",
     station: "CLUBE FM",
     radioName: 'clube',
     logo: '/logo/clube.png',
     file:"https://ice.fabricahost.com.br/clubefmbh",
+  },
+  {
+    title: "Ouvindo",
+    page: "/radio/top",
+    station: "TOP FM",
+    radioName: 'top',
+    logo: '/logo/top.png',
+    file:"http://cloud1.cdnseguro.com:8320/stream/",
   },
 ];

@@ -2,7 +2,7 @@
   "name": "webradio",
   "version": "0.1.0",
   "private": false,
-  "baseurl":"webradio/",
+  "baseurl": "webradio/",
   "homepage": "http://localhost/",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
