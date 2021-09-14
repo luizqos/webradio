@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 export default [
   {
     title: "Ouvindo",
@@ -65,7 +66,6 @@ export default [
   },
   {
     title: "Ouvindo",
-    page: "/radio/cdl",
     page: "/radio/cdl",
     station: "CDL FM",
     radioName: 'cdl',

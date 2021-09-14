@@ -1,10 +1,7 @@
+/* eslint-disable import/no-anonymous-default-export */
 import audios from "./data.js";
 import { path } from "./utils.js";
 import elements from "./playerElements.js";
-
-function sleep (time) {
-  return new Promise((resolve) => setTimeout(resolve, time));
-}
 
 export default {
   audioData: audios,
